@@ -99,8 +99,8 @@ The our model was learned and evaluated on the Y(luminance) channel.
 
 For performance, we modified the original implementation as follows. 
 
-- Batch normalization was removed from the **residual unit**.
-- No bias was used in the convolution layer.
+- **Batch normalization** was removed from the **residual unit**.
+- **No bias** was used in the convolution layer.
 
 ### Performance comparision on the Set5
 
