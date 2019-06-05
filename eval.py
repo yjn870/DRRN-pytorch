@@ -21,7 +21,6 @@ if __name__ == '__main__':
 
     cudnn.benchmark = True
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-    torch.manual_seed(args.seed)
 
     model = DRRN(B=args.B, U=args.U, num_features=args.num_features).to(device)
     model = load_weights(model, args.weights_file)
