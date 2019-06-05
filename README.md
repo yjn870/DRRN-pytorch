@@ -106,9 +106,9 @@ For performance, we modified the original implementation as follows.
 
 | Eval. Mat | Scale | DRRN_B1U9 (Paper) | DRRN_B1U9 (Ours) |
 |-----------|-------|-------|-----------------|
-| PSNR | 2 | 37.66 | 37.62 |
-| PSNR | 3 | 33.93 | 33.86 |
-| PSNR | 4 | 31.58 | 31.52 |
+| PSNR | 2 | 37.66 | **37.62** |
+| PSNR | 3 | 33.93 | **33.86** |
+| PSNR | 4 | 31.58 | **31.52** |
 
 ## References
 
