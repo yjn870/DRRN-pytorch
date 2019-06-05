@@ -95,11 +95,11 @@ python eval.py --weights-file "BLAH_BLAH/DRRN_B1U9/best.pth" \
 
 ## Results
 
-The our model was learned and evaluated on the Y(luminance) channel.
+The our model was learned and evaluated on the **Y(luminance) channel**.
 
 For performance, we modified the original implementation as follows. 
 
-- **Batch normalization** was removed from the **residual unit**.
+- **Batch normalization** was removed from the residual unit.
 - **No bias** was used in the convolution layer.
 
 ### Performance comparision on the Set5
